@@ -1,5 +1,5 @@
 .accordion {
-    background-image: url(../../assets/images/crpback.jpg);
+    background-image: url(assets/images/crpback.jpg);
     height: 1200px;
 }
 
@@ -13,7 +13,7 @@
    .card {
       width: 400px!important;
       height: 330px;
-      background-image: url(../../assets/images/back.jpg);
+      background-image: url(assets/images/back.jpg);
       box-shadow: 11px 22px 33px rgb(40, 15, 2);
    }
    .btn-success {
@@ -36,7 +36,7 @@
 }
 
 mat-expansion-panel {
-    background-image: url(../../assets/images/back.jpg);
+    background-image: url(assets/images/back.jpg);
 }
 
 .size {
