@@ -1,0 +1,44 @@
+<div class="get">
+  <div class="container">
+    <div class="">
+
+          <mat-stepper [linear]="isLinear" class="back" #stepper>
+            <mat-step [stepControl]="firstFormGroup">
+              <form [formGroup]="firstFormGroup">
+                <ng-template matStepLabel >Fill out your name</ng-template>
+                <mat-form-field appearance="fill">
+                  <mat-label>Name or Email</mat-label>
+                  <input matInput placeholder="Last name, First name" formControlName="firstCtrl" required>
+                </mat-form-field>
+                <div>
+                  <button matStepperNext class="btn btn-success">Next</button>
+                </div>
+              </form>
+            </mat-step>
+            <mat-step [stepControl]="secondFormGroup" label="Fill out your password">
+              <form [formGroup]="secondFormGroup">
+                <mat-form-field appearance="fill">
+                  <mat-label>password</mat-label>
+                  <input matInput formControlName="secondCtrl" placeholder="Minecraft@gmail.com"
+                         required>
+                </mat-form-field>
+                <div>
+                  <button  matStepperPrevious class="btn btn-success">Back</button>
+                  <button  matStepperNext class="btn btn-success">Next</button>
+                </div>
+              </form>
+            </mat-step>
+            <mat-step>
+              <ng-template matStepLabel>Done</ng-template>
+              <p class="font">You are now done.</p>
+              <div>
+                <button  matStepperPrevious class="btn btn-success">Back</button>
+                <button  routerLink="/forms" class="btn btn-success">Next</button>
+              </div>
+            </mat-step>
+          </mat-stepper>
+          
+
+    </div>
+  </div>
+</div>

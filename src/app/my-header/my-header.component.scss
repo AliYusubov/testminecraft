@@ -1,0 +1,43 @@
+.navbar {
+    background-image: url(../../assets/images/header.png);
+    height: 111px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 22px;
+}
+
+.logo {
+    width: 400px;
+    margin-right: 300px;
+}
+
+.nav-link {
+    color: white!important;
+    background-image:linear-gradient(yellowgreen) ;
+    margin-right: 11px;
+    background-color: rgb(0, 152, 0);
+    background-image: url(../../assets/images/green.webp);
+}
+
+.nav-link:hover {
+    color: white!important;
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.btn-success {
+    background-color: rgb(0, 152, 0);
+    border: none;
+    margin-bottom: 20px;
+    background-image: url(../../assets/images/green.webp);
+}
+
+.btn-success:hover {
+    color: white!important;
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.s {
+    margin-left: 10px;
+}
+

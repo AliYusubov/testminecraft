@@ -1,0 +1,66 @@
+.fill-remaining-space {
+  /* This fills the remaining space, by using flexbox. 
+       Every toolbar row uses a flexbox row layout. */
+  flex: 1 1 auto;
+}
+
+.container {
+  padding: 10px;
+}
+
+.form {
+  min-width: 150px;
+  max-width: 500px;
+  width: 100%;
+}
+
+.form-element {
+  padding: 5px 0px 25px 2px;
+  width: 100%;
+}
+
+.button {
+  width: 100%;
+}
+
+.mat {
+  background-image: url(../../assets/images/sun.webp);
+  background-repeat: no-repeat;
+  height: 1080px;
+  padding: 660px;
+  padding-top: 200px;
+  padding-left: 600px;
+ 
+}
+
+.back {
+  background-image: url(../../assets/images/back.jpg);
+  background-color: #4d2a1b!important;
+  padding: 100px;
+  box-shadow: 15px 25px 55px ;
+}
+
+.font {
+  font-family: 'Bebas Neue', cursive!important;
+  color: white;
+}
+
+h1 {
+padding-bottom: 50px;
+text-align: center;
+font-size: 55px;
+color: white;
+}
+
+.button {
+  background-image: url(../../assets/images/green.webp);
+  background-color: green!important;
+  color: white!important;
+}
+
+.crp {
+  width: 100px;
+}
+
+
+
